@@ -43,7 +43,7 @@ const html = () => {
 
 //Images
 const optimizeImages = () => {
-  return gulp.src('source/img/**/*.{jpg,png}')
+  return gulp.src('source/img/**/*.{jpg,png,mp4}')
   .pipe(squoosh())
   .pipe(gulp.dest('build/img'));
 };
